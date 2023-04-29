@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/godaner/asynq/internal/base"
+	"github.com/godaner/asynq/internal/rdb"
+	"github.com/godaner/asynq/internal/testbroker"
+	h "github.com/godaner/asynq/internal/testutil"
+	"github.com/godaner/asynq/internal/timeutil"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/rdb"
-	"github.com/hibiken/asynq/internal/testbroker"
-	h "github.com/hibiken/asynq/internal/testutil"
-	"github.com/hibiken/asynq/internal/timeutil"
 )
 
 // Test goes through a few phases.

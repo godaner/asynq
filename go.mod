@@ -1,4 +1,4 @@
-module github.com/hibiken/asynq
+module github.com/godaner/asynq
 
 go 1.14
 
@@ -13,5 +13,4 @@ require (
 	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 	google.golang.org/protobuf v1.26.0
-	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
